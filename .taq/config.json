@@ -1,0 +1,129 @@
+{
+    "language": "en",
+    "contractsDir": "contracts",
+    "artifactsDir": "artifacts",
+    "network": {
+        "ghostnet": {
+            "label": "ghostnet",
+            "rpcUrl": "https://ghostnet.ecadinfra.com",
+            "protocol": "PtJakart2xVj7pYXJBXrqHgd82rdkLey5ZeeGwDgPp9rhQUbSqY",
+            "faucet": {
+                "pkh": "tz1ge3zb6kC5iUZcXsjxiwwtU5MwP37T6m1z",
+                "mnemonic": [
+                    "donor",
+                    "own",
+                    "people",
+                    "unusual",
+                    "congress",
+                    "meadow",
+                    "diesel",
+                    "table",
+                    "orient",
+                    "table",
+                    "craft",
+                    "donate",
+                    "album",
+                    "sound",
+                    "club"
+                ],
+                "email": "garexkby.gwzlnccc@teztnets.xyz",
+                "password": "PMH8QE4pc5",
+                "amount": "101486787943",
+                "activation_code": "40d3b8396baf3fbcbb19d0c77bf38d8b184bb875"
+            }
+        }
+    },
+    "sandbox": {
+        "local": {
+            "label": "Local Tezos Sandbox",
+            "rpcUrl": "http://localhost:20000",
+            "protocol": "PtJakart2xVj7pYXJBXrqHgd82rdkLey5ZeeGwDgPp9rhQUbSqY",
+            "accounts": {
+                "default": "bob",
+                "bob": {
+                    "encryptedKey": "edpkurPsQ8eUApnLUJ9ZPDvu98E8VNj4KtJa1aZr16Cr5ow5VHKnz4",
+                    "publicKeyHash": "tz1aSkwEot3L2kmUvcoxzjMomb9mvBNuzFK6",
+                    "secretKey": "unencrypted:edsk3RFfvaFaxbHx8BMtEW1rKQcPtDML3LXjNqMNLCzC3wLC1bWbAt"
+                },
+                "alice": {
+                    "encryptedKey": "edpkvGfYw3LyB1UcCahKQk4rF2tvbMUk8GFiTuMjL75uGXrpvKXhjn",
+                    "publicKeyHash": "tz1VSUr8wwNhLAzempoch5d6hLRiTh8Cjcjb",
+                    "secretKey": "unencrypted:edsk3QoqBuvdamxouPhin7swCvkQNgq4jP5KZPbwWNnwdZpSpJiEbq"
+                },
+                "john": {
+                    "encryptedKey": "edpktt6t2ENhxiQqun6bXPPWC6tFVvNPTDRh1gEPGX4BgDgbDnmGzP",
+                    "publicKeyHash": "tz1Zwoh1QCVAvJ4sVTojMp9pLYp6Ji4NoZy6",
+                    "secretKey": "unencrypted:edsk3Un2KRUUoWZufi914HQem96ejVFnkyD8GXRPUSkgqy5etsYXEN"
+                },
+                "jane": {
+                    "encryptedKey": "edpkvS6TDSWcqqj3EJi3NRrCMyN7oNw1B3Hp37R19tMThqM8YNhAuS",
+                    "publicKeyHash": "tz1aHUAC4oviwJuZF1EvVSvFz7cu9KMNYBph",
+                    "secretKey": "unencrypted:edsk3UkdS1UBfTBkMAoFxmfdmUHmCdNhTzDJ1cSJuZhU1b6k6fZZoQ"
+                },
+                "joe": {
+                    "encryptedKey": "edpkuT1QYPYbLLQz9dXhQS33ncsixxeGHbNGmntPTR4VBbWmskHPrV",
+                    "publicKeyHash": "tz1MVGjgD1YtAPwohsSfk8i3ZiT1yEGM2YXB",
+                    "secretKey": "unencrypted:edsk3Un2FU9Zeb4KEoATWdpAqcX5JArMUj2ew8S4SuzhPRDmGoqNx2"
+                }
+            }
+        }
+    },
+    "environment": {
+        "default": "testing",
+        "development": {
+            "networks": [],
+            "sandboxes": [
+                "local"
+            ],
+            "storage": {},
+            "aliases": {
+                "hello-tacos": {
+                    "address": "KT1EsketU7JtjbR7aDriyx2q8LYyz1TFzCaE"
+                }
+            }
+        },
+        "testing": {
+            "networks": [
+                "ghostnet"
+            ],
+            "sandboxes": [],
+            "aliases": {
+                "hello-tacos": {
+                    "address": "KT1FhU39y4hNMx6SjohckxaBs3ehd4oKYB6z"
+                }
+            }
+        }
+    },
+    "accounts": {
+        "bob": "3_000_000_000",
+        "alice": "3_000_000_000",
+        "john": "3_000_000_000",
+        "jane": "3_000_000_000",
+        "joe": "3_000_000_000"
+    },
+    "plugins": [
+        {
+            "name": "@taqueria/plugin-ligo",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-flextesa",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-taquito",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-jest",
+            "type": "npm"
+        },
+        {
+            "name": "@taqueria/plugin-contract-types",
+            "type": "npm"
+        }
+    ],
+    "projectDir": "/home/jev/demo/taco-shop",
+    "configFile": "/home/jev/demo/taco-shop/.taq/config.json",
+    "hash": "4546f7284ae388b52b302d442661fbb5e85868e0aa1bfa1dec0c1beb8fe3e3dc"
+}
